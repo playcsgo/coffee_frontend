@@ -1,0 +1,65 @@
+{
+  "name": "twitter-concept",
+  "version": "1.0.0",
+  "homepage": "https://playcsgo.github.io/coffee_frontend/#",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.3.0",
+    "clsx": "^1.2.1",
+    "dayjs": "^1.11.8",
+    "eslint": "^7.11.0",
+    "gh-pages": "^4.0.0",
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^9.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-overlay": "^6.0.9",
+    "react-hook-form": "^7.44.3",
+    "react-loading-skeleton": "^3.3.1",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "^4.0.3",
+    "react-spinners": "^0.13.8",
+    "sass": "^1.62.1",
+    "styled-components": "^6.1.11",
+    "sweetalert2": "^11.7.12",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "dev-server": "json-server --watch db.json --port 3004",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2"
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  }
+}
